@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HelloworldGwk</string>
+    <string name="edit_mes">请输入信息</string>
+    <string name="btn_send">发送</string>
+    <string name="text_v">显示信息</string>
+</resources>
