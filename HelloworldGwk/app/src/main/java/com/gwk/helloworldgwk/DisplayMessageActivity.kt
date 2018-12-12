@@ -2,7 +2,6 @@ package com.gwk.helloworldgwk
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import com.sfit.ctp.thosttraderapi.CThostFtdcTraderApi.CreateFtdcTraderApi
 import kotlinx.android.synthetic.main.activity_display_message.*
 
 class DisplayMessageActivity : AppCompatActivity() {
