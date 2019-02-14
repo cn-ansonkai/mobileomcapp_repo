@@ -41,7 +41,15 @@ class TasksActivity : AppCompatActivity() {
             replaceFragmentInActivity(it, R.id.contentFrame)
         }
 
-
+        // create Presenter according to flavors
+        /*
+        tasksPresenter = TasksPresenter(Injection.provideTasksRepository(applicationContext), tasksFragment).apply {
+            // load saved state
+            if (savedInstanceState != null) {
+                currentFilering = savedInstanceState.getSerializable(CURRENT_FILTERING_KEY) as TasksFilterType
+            }
+        }
+        */
 
     }
 
